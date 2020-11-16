@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles/style.css">   
+<title> Mini Question Adventure </title>
+  <body> 
+  <div class="top">
+  
+    <nav>
+        <ul>
+          <li id="stats"> Display Stats </li>
+        </ul> 
+    </nav> 
+    <h1 id="header"> Mini Question Adventure</h1>
+  </div>
+
+  <div class="box">
+    <div class="topInnerText">
+    </div>
+  </div>
+
+  <div class="statBox">
+  </div>
+
+  <audio id="audio" autoplay >
+    <source id="audiosource" src="./music/Overture.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="./src/components/app.js" ></script>
+  <script src="./src/components/users.js" ></script>
+  <script src="./src/components/user.js" ></script>
+  <script src="./src/adapters/UsersAdapter.js" ></script>
+  <script src="./src/components/hero.js" ></script>
+  <script src="./src/adapters/HerosAdapter.js" ></script>
+  <script src="./src/components/adventure.js" ></script>
+  <script src="./src/adapters/AdventuresAdapter.js" ></script>
+  <script src="./src/index.js"></script>
+
+  <div class="signUpForm">
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Name" name="Name" required>
+    <label for="username"><b>Name</b></label>
+    <input type="text" placeholder="Username" name="username" required>
+
+    <button id="signUp" type="submit">Sign Up</button>
+
+  </div>
+
+  </body>
+
+</html>
